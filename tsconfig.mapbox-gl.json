@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig",
+  "include": [
+    "__types__/**/*.d.ts",
+    "src/index.ts"
+  ]
+}

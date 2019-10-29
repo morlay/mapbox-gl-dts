@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "__types__/*",
+        "*"
+      ]
+    },
+    "target": "esnext",
+    //    "module": "commonjs",
+    "lib": [
+      "dom",
+      "esnext",
+      "webworker"
+    ],
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "resolveJsonModule": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "declaration": true,
+    "declarationDir": ".tmp/mapbox-gl",
+    "emitDeclarationOnly": true,
+    "noEmitOnError": false
+  },
+  "exclude": [
+    ".tmp",
+    "node_modules"
+  ]
+}
